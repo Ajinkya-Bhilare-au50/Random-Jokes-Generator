@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-color: aqua;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #6f6ade;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.wrapper {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #fcfcff;
+  border-radius: 25px;
+  overflow: auto;
+  width: 60%;
+  font-size: 30px;
+  padding: 20px;
+  font-family: sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn {
+  position: absolute;
+  top: 72%;
+  color: #000000;
+  box-shadow: #feffff 0 0 0 4px inset;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 17px;
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  
+}
+.Dont-laugh {
+  color: #c9c5c5;
+}
+.btn {
+  display: block;
+  max-width: 220px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 30px;
+  transition: 1s cubic-bezier(0.39, 0.5, 0.15, 1.36);
+}
+.apijokes {
+  text-align: center;
+  color: #494f55;
+}
+
+.btn:hover {
+  color: #fff;
+  box-shadow: #6f6ade 0 0 0 40px inset;
+}
+.smile {
+  font-size: 90px;
+}
